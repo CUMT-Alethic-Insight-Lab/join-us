@@ -1,4 +1,4 @@
-# Join CUMT Aletheion AI Lab
+# Join CUMT Alethic Insight Lab
 
 - [English](README.en.md)
 - [简体中文](README.zh-CN.md)

@@ -1,6 +1,6 @@
-# Join CUMT Aletheion AI Lab
+# Join CUMT Alethic Insight Lab
 
-CUMT Aletheion AI Lab welcomes students interested in AI research, engineering, open-source collaboration, and long-term learning.
+CUMT Alethic Insight Lab welcomes students interested in AI research, engineering, open-source collaboration, and long-term learning.
 
 ## Recruitment Process
 

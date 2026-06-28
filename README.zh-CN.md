@@ -1,6 +1,6 @@
-# 加入 CUMT Aletheion AI Lab
+# 加入 CUMT Alethic Insight Lab
 
-CUMT Aletheion AI Lab 欢迎对 AI 研究、工程实践、开源协作和长期学习感兴趣的同学。
+CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长期学习感兴趣的同学。
 
 ## 招新流程
 
