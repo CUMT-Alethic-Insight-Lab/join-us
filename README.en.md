@@ -28,5 +28,5 @@ See [AI Assistance Policy](docs/en/ai-assistance-policy.md).
 
 This public repository must not contain real recruitment questions, past machine test problems, interview questions, scoring rubrics, candidate evaluations, or internal review notes.
 
-Contact: contact@aletheion.cn
+Contact: contact@alethicinsight.org
 

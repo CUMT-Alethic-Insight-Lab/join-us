@@ -28,5 +28,5 @@ CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长
 
 本公开仓库不得包含真实招新题、往届机试题、面试题、评分标准、候选人评价或内部评审记录。
 
-联系：contact@aletheion.cn
+联系：contact@alethicinsight.org
 
