@@ -28,9 +28,9 @@ See [AI Assistance Policy](docs/en/ai-assistance-policy.md).
 
 The machine test runs on our open-source platform. The session-cleaning code — what is collected from your AI sessions and how private information is removed before review — is public and auditable.
 
-- Platform source code: [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)
-- Session cleaning: [`exam_kit/cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/blob/main/exam_kit/cleaner.py)
-- Downloads: [Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/releases)
+- Platform source code: [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)
+- Session cleaning: [`cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/blob/main/cleaner.py)
+- Downloads: [Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/releases)
 
 Only cleaned session records are uploaded — keys, personal files, and unrelated content are removed locally before upload.
 
