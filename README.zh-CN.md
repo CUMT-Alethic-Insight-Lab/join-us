@@ -28,9 +28,9 @@ CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长
 
 机试使用我们开源的招新平台。会话清洗代码——从你的 AI 会话中收集什么、评审前如何去除隐私信息——完全公开、可审查。
 
-- 平台源码：[recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)
-- 会话清洗：[`exam_kit/cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/blob/main/exam_kit/cleaner.py)
-- 下载：[Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/releases)
+- 平台源码：[alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)
+- 会话清洗：[`cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/blob/main/cleaner.py)
+- 下载：[Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/releases)
 
 我们只上传清洗后的会话记录——密钥、个人文件与无关内容在上传前已于本地去除。
 

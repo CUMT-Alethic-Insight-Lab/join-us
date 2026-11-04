@@ -22,9 +22,9 @@ The machine test runs on our open-source platform. The session-cleaning code —
 
 | Resource | Link |
 | --- | --- |
-| Platform source code 平台源码 | [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) |
-| Session cleaning 会话清洗 | [`exam_kit/cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/blob/main/exam_kit/cleaner.py) |
-| Downloads 下载 | [Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/releases) |
+| Platform source code 平台源码 | [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) |
+| Session cleaning 会话清洗 | [`cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/blob/main/cleaner.py) |
+| Downloads 下载 | [Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/releases) |
 
 Only cleaned session records are uploaded — keys, personal files, and unrelated content are removed locally before upload. Questions are welcome via Issues in the platform repository.
 
