@@ -4,7 +4,7 @@ CUMT Alethic Insight Lab welcomes students interested in AI research, engineerin
 
 ## Two Products
 
-- **Recruitment exam:** [current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) and the candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit); the kit name stays unchanged.
+- **Recruitment exam:** [current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) and the candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit); the kit name stays unchanged.
 - **Internal member and organization platform:** [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) contains member workflows, organization API and a single CLI/MCP infra package. This is an independent internal product, not an exam extension or candidate-kit dependency.
 
 ## Recruitment Process
@@ -33,7 +33,7 @@ See [AI Assistance Policy](docs/en/ai-assistance-policy.md).
 
 The machine test runs on our open-source platform. The session-cleaning code — what is collected from your AI sessions and how private information is removed before review — is public and auditable.
 
-- Platform source code: [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)
+- Platform source code: [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)
 - Session cleaning: [`cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/blob/main/cleaner.py)
 - Downloads: [Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/releases)
 
@@ -49,3 +49,7 @@ This public repository must not contain real recruitment questions, past machine
 
 Contact: contact@alethicinsight.org
 
+
+## Maintainer Update
+
+2026-11-17: With explicit user authorization, the exam repository was restored from `alethicinsight-platform` to `recruitment-exam-platform`; GitHub retains the old URL redirect. Its root `server/` runs only the exam, but `main` still contains the member copy pending [PR #7](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/pull/7); source deduplication is not complete. The kit name is unchanged. No PR merge, deployment, or data migration is included.
