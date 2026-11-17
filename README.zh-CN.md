@@ -5,9 +5,7 @@ CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长
 ## 两个产品
 
 - **招新考试**：[考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)与考生 [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) 套件，套件名称不变。
-- **内部成员与组织平台**：暂与考试[同源仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)。成员事务、组织 API 及同包 CLI/MCP 属于内部产品，不是考试增量或套件依赖；`infra-handoff` 仅供私有运维交接。
-
-**源码待纠正 PR 合入**：第一阶段目标为 `member-platform/server`、`member-platform/infra/...` 独立运行内部产品，根 `server/` 仅考试。审计基线 `229e69c` 中，组织 API 与考试仍共 DB、账号和启动流程，文档分栏不代表已解耦或已生产部署。先 PR 审查运行隔离，远端重命名与分仓映射另行处理；不预造新仓名或尚不存在的 `main/member-platform` 源码链接。
+- **内部成员与组织平台**：[alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) 负责成员事务、组织 API 及同包 CLI/MCP；它是独立内部产品，不是考试增量或考生套件依赖。
 
 ## 招新流程
 

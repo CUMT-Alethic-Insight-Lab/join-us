@@ -11,9 +11,7 @@ The single entry point for joining the lab: recruitment process, transparent mac
 | Product 产品 | Entry and boundary 入口与边界 |
 | --- | --- |
 | Recruitment exam 招新考试 | [Exam server source / 考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) + [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) candidate kit; the kit name stays unchanged. 套件名称不变。 |
-| Internal member and organization platform 内部成员与组织平台 | [Current shared source repository / 当前同源仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform). Member workflows, organization API and the single CLI/MCP infra package are not exam extensions or candidate-kit dependencies. 成员事务、组织 API 及同包 CLI/MCP 属于内部产品，不是考试增量或考生套件依赖。 |
-
-**Source isolation pending correction PR / 源码待纠正 PR 合入：** first-stage target `member-platform/server` and `member-platform/infra/...` run the internal product independently; root `server/` serves exams only. At audit baseline `229e69c`, organization and exam APIs still share DB, accounts and startup flow. 文档区分不等于已解耦；先审查运行隔离，远端重命名及分仓映射另行处理，不预造新仓或尚不存在的 `main/member-platform` 链接，不宣称生产部署已完成。`infra-handoff` is private operations handoff only / 仅私有运维交接。
+| Internal member and organization platform 内部成员与组织平台 | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform): member workflows, organization API and a single CLI/MCP infra package. 成员事务、组织 API 及同包 CLI/MCP 属于独立内部产品，不是考试增量或考生套件依赖。 |
 
 ## How to Join / 如何加入
 

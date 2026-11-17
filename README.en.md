@@ -5,9 +5,7 @@ CUMT Alethic Insight Lab welcomes students interested in AI research, engineerin
 ## Two Products
 
 - **Recruitment exam:** [current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) and the candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit); the kit name stays unchanged.
-- **Internal member and organization platform:** temporarily in the [same source repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform). Member workflows, organization API and the single CLI/MCP infra package are an internal product, not exam extensions or kit dependencies. `infra-handoff` is private operations handoff only.
-
-**Source isolation pending correction PR:** the first-stage target is independently runnable `member-platform/server` and `member-platform/infra/...`, with root `server/` reserved for exams. At audit baseline `229e69c`, organization and exam APIs still share a database, accounts and startup flow. This navigation change does not claim isolation or production deployment. Review runtime isolation first; decide remote renaming and separate-repository mapping later. No new repository or nonexistent `main/member-platform` source link is advertised.
+- **Internal member and organization platform:** [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) contains member workflows, organization API and a single CLI/MCP infra package. This is an independent internal product, not an exam extension or candidate-kit dependency.
 
 ## Recruitment Process
 
