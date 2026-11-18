@@ -6,6 +6,13 @@ The single entry point for joining the lab: recruitment process, transparent mac
 
 新成员招新总入口：招新流程、透明公开的机试平台、加入后的深入上手路径。
 
+## Two Products / 两个产品
+
+| Product 产品 | Entry and boundary 入口与边界 |
+| --- | --- |
+| Recruitment exam 招新考试 | [Exam server source / 考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) + [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) candidate kit; the kit name stays unchanged. 套件名称不变。 |
+| Internal member and organization platform 内部成员与组织平台 | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform): member workflows, organization API and a single CLI/MCP infra package. 成员事务、组织 API 及同包 CLI/MCP 属于独立内部产品，不是考试增量或考生套件依赖。 |
+
 ## How to Join / 如何加入
 
 | Step | Links |
@@ -22,7 +29,7 @@ The machine test runs on our open-source platform. The session-cleaning code —
 
 | Resource | Link |
 | --- | --- |
-| Platform source code 平台源码 | [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) |
+| Platform source code 平台源码 | [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) |
 | Session cleaning 会话清洗 | [`cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/blob/main/cleaner.py) |
 | Downloads 下载 | [Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/releases) |
 
@@ -46,3 +53,9 @@ Real recruitment questions, past machine-test problems, interview questions, sco
 ## Contact / 联系
 
 contact@alethicinsight.org
+
+## Maintainer Update / 维护记录
+
+2026-11-17: With explicit user authorization, the exam repository was restored from `alethicinsight-platform` to `recruitment-exam-platform`; GitHub retains the old URL redirect. Its root `server/` runs only the exam, but `main` still contains the member copy pending [PR #7](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/pull/7); source deduplication is not complete. The kit name is unchanged. No PR merge, deployment, or data migration is included.
+
+2026-11-17 追加：经用户明确授权，考试仓从 `alethicinsight-platform` 恢复为 `recruitment-exam-platform`，GitHub 保留旧 URL 重定向。根 `server/` 仅运行考试，但 `main` 仍有待 PR #7 移除的成员副本，不能宣称已完成源码去重。套件名称不变；本次不合并 PR、不部署、不迁移数据。

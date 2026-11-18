@@ -2,6 +2,11 @@
 
 CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长期学习感兴趣的同学。
 
+## 两个产品
+
+- **招新考试**：[考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)与考生 [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) 套件，套件名称不变。
+- **内部成员与组织平台**：[alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) 负责成员事务、组织 API 及同包 CLI/MCP；它是独立内部产品，不是考试增量或考生套件依赖。
+
 ## 招新流程
 
 我们的基本流程是：
@@ -28,7 +33,7 @@ CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长
 
 机试使用我们开源的招新平台。会话清洗代码——从你的 AI 会话中收集什么、评审前如何去除隐私信息——完全公开、可审查。
 
-- 平台源码：[alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)
+- 平台源码：[recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)
 - 会话清洗：[`cleaner.py`](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/blob/main/cleaner.py)
 - 下载：[Releases](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit/releases)
 
@@ -44,3 +49,7 @@ CUMT Alethic Insight Lab 欢迎对 AI 研究、工程实践、开源协作和长
 
 联系：contact@alethicinsight.org
 
+
+## 维护记录
+
+2026-11-17 追加：经用户明确授权，考试仓从 `alethicinsight-platform` 恢复为 `recruitment-exam-platform`，GitHub 保留旧 URL 重定向。根 `server/` 仅运行考试，但 `main` 仍有待 [PR #7](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/pull/7) 移除的成员副本，不能宣称已完成源码去重。套件名称不变；本次不合并 PR、不部署、不迁移数据。
